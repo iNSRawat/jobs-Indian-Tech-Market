@@ -276,7 +276,7 @@ occupations = [
     }
 ]
 
-with open("site/data.json", "w", encoding="utf-8") as f:
+with open("data.json", "w", encoding="utf-8") as f:
     json.dump(occupations, f, indent=2)
 
-print("Data written to site/data.json successfully.")
+print("Data written to data.json successfully.")

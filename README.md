@@ -4,7 +4,7 @@ Analyzing how susceptible the Indian IT, Data Science, and Tech sectors are to A
 
 **Based on the [Karpathy Jobs](https://github.com/karpathy/jobs) repository template, tailored exclusively for the Indian technology workforce.**
 
-![AI Exposure Treemap](site/jobs.png)
+![AI Exposure Treemap](jobs.png)
 
 ## What's here
 
@@ -24,8 +24,8 @@ This repository models **22 core Tech and Data Science occupations** in India. S
 | File | Description |
 |------|-------------|
 | `generate_indian_tech_data.py` | Generates the synthetic dataset for the Indian market and saves it to JSON. |
-| `site/data.json` | The final structured JSON injected into the frontend visualization. |
-| `site/index.html` | The customized static HTML visualization file. |
+| `data.json` | The final structured JSON injected into the frontend visualization. |
+| `index.html` | The customized static HTML visualization file. |
 
 ## AI exposure scoring
 
@@ -46,9 +46,9 @@ The main visualization is an interactive **treemap** where:
 You only need Python installed to regenerate the Indian data and run the site.
 
 ```bash
-# Generate the Indian Tech Market JSON data (creates site/data.json)
+# Generate the Indian Tech Market JSON data (creates data.json)
 python generate_indian_tech_data.py
 
 # Serve the visualizer site locally
-cd site && python -m http.server 8000
+python -m http.server 8000
 ```
