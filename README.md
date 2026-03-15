@@ -1,6 +1,6 @@
 # AI Exposure of the Indian Tech Job Market
 
-Analyzing how susceptible every occupation in the Indian economy is to AI and automation, using data anchored to the Ministry of Labour & Employment ([MoLE](https://labour.gov.in/)) and the Periodic Labour Force Survey (PLFS).
+Analyzing how susceptible every occupation in the Indian economy is to AI and automation, using data anchored to the Ministry of Labour & Employment ([MoLE](https://labour.gov.in/)) and the Periodic Labour Force Survey ([PLFS](https://mospi.gov.in/)).
 
 **Live demo: [insrawat.github.io/jobs-Indian-Tech-Market](https://insrawat.github.io/jobs-Indian-Tech-Market/)**
 
