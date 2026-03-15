@@ -9,8 +9,8 @@ Analyzing how susceptible the Indian IT, Data Science, and Tech sectors are to A
 ## What's here
 
 This repository models **22 core Tech and Data Science occupations** in India. Since precise, centralized government data like the US BLS does not perfectly mirror the Indian IT hierarchy, we have synthesized a highly realistic dataset anchored to authentic industry reports:
-- **Workforce Sizing**: Total jobs and AI professional counts are anchored to the **NASSCOM 2024 Strategic Review**, reflecting an estimated 5.67 million total IT professionals and over 600,000 AI/Data experts.
-- **Salaries (INR)**: Median pay estimates are aggregating data from popular Indian salary platforms (AmbitionBox, Glassdoor India, Indeed India, and Payscale) as of 2024/2025.
+- **Workforce Sizing**: Total jobs and AI professional counts are anchored to the **[NASSCOM 2024 Strategic Review](https://nasscom.in/)**, reflecting an estimated 5.67 million total IT professionals and over 600,000 AI/Data experts.
+- **Salaries (INR)**: Median pay estimates are aggregating data from popular Indian salary platforms such as [AmbitionBox](https://www.ambitionbox.com/), [Glassdoor India](https://www.glassdoor.co.in/), [Indeed India](https://in.indeed.com/), and [Payscale](https://www.payscale.com/) as of 2024/2025.
 - **Job Outlook**: Projected growth is modeled around the rapid expansion of the Indian SaaS, AI, and IT services sectors.
 - **AI Exposure**: Each role is scored on an AI exposure scale from 0-10, with rationales generated using Gemini Flash model reasoning based on the tasks involved.
 
