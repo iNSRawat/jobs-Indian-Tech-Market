@@ -7,11 +7,11 @@ occupations = [
         "slug": "software-engineers",
         "category": "software-engineering",
         "pay": 800000,
-        "jobs": 200000,
+        "jobs": 1500000,
         "outlook": 12,
         "outlook_desc": "Much faster than average",
         "education": "Bachelor's degree",
-        "exposure": 8,
+        "exposure": 7,
         "exposure_rationale": "Writing and testing code is entirely digital and highly exposed to AI coding assistants. Routine programming tasks are rapidly moving toward automation, though system design and logic architecture still require human oversight."
     },
     {
@@ -19,7 +19,7 @@ occupations = [
         "slug": "frontend-developers",
         "category": "software-engineering",
         "pay": 700000,
-        "jobs": 100000,
+        "jobs": 350000,
         "outlook": 10,
         "outlook_desc": "Faster than average",
         "education": "Bachelor's degree",
@@ -31,11 +31,11 @@ occupations = [
         "slug": "backend-developers",
         "category": "software-engineering",
         "pay": 900000,
-        "jobs": 150000,
+        "jobs": 450000,
         "outlook": 12,
         "outlook_desc": "Much faster than average",
         "education": "Bachelor's degree",
-        "exposure": 8,
+        "exposure": 6,
         "exposure_rationale": "Backend logic, API design, and database queries are completely digital. AI tools can rapidly generate boilerplate code, optimize SQL queries, and assist in debugging complex server-side issues."
     },
     {
@@ -43,11 +43,11 @@ occupations = [
         "slug": "full-stack-developers",
         "category": "software-engineering",
         "pay": 1000000,
-        "jobs": 100000,
+        "jobs": 350000,
         "outlook": 15,
         "outlook_desc": "Much faster than average",
         "education": "Bachelor's degree",
-        "exposure": 8,
+        "exposure": 7,
         "exposure_rationale": "While full stack requires cross-domain knowledge, both frontend and backend tasks are highly exposed to AI productivity gains, reducing the overall time needed to build end-to-end applications."
     },
     {
@@ -55,11 +55,11 @@ occupations = [
         "slug": "mobile-app-developers",
         "category": "software-engineering",
         "pay": 800000,
-        "jobs": 50000,
+        "jobs": 200000,
         "outlook": 10,
         "outlook_desc": "Faster than average",
         "education": "Bachelor's degree",
-        "exposure": 8,
+        "exposure": 5,
         "exposure_rationale": "App development frameworks (like React Native and Flutter) are well-understood by modern LLMs, allowing for rapid generation of mobile UIs and business logic."
     },
     {
@@ -67,7 +67,7 @@ occupations = [
         "slug": "qa-engineers",
         "category": "software-engineering",
         "pay": 600000,
-        "jobs": 50000,
+        "jobs": 400000,
         "outlook": 8,
         "outlook_desc": "Faster than average",
         "education": "Bachelor's degree",
@@ -81,11 +81,11 @@ occupations = [
         "slug": "data-scientists",
         "category": "data-science",
         "pay": 1200000,
-        "jobs": 1800000,
+        "jobs": 150000,
         "outlook": 28,
         "outlook_desc": "Much faster than average",
         "education": "Bachelor's degree or higher",
-        "exposure": 9,
+        "exposure": 10,
         "exposure_rationale": "Data science is a fully digital occupation centered on statistical modeling and data analysis, areas where AI is rapidly achieving parity. AI can automate significant portions of the data pipeline."
     },
     {
@@ -93,7 +93,7 @@ occupations = [
         "slug": "machine-learning-engineers",
         "category": "data-science",
         "pay": 1500000,
-        "jobs": 1200000,
+        "jobs": 80000,
         "outlook": 35,
         "outlook_desc": "Much faster than average",
         "education": "Master's degree preferred",
@@ -105,7 +105,7 @@ occupations = [
         "slug": "data-analysts",
         "category": "data-science",
         "pay": 650000,
-        "jobs": 800000,
+        "jobs": 250000,
         "outlook": 18,
         "outlook_desc": "Much faster than average",
         "education": "Bachelor's degree",
@@ -117,11 +117,11 @@ occupations = [
         "slug": "data-engineers",
         "category": "data-science",
         "pay": 1100000,
-        "jobs": 600000,
+        "jobs": 100000,
         "outlook": 22,
         "outlook_desc": "Much faster than average",
         "education": "Bachelor's degree",
-        "exposure": 8,
+        "exposure": 6,
         "exposure_rationale": "Building ETL pipelines and managing data infrastructure is digital work. AI can generate complex data transformation scripts and optimize database configurations, increasing engineer productivity."
     },
     {
@@ -129,11 +129,11 @@ occupations = [
         "slug": "ai-researchers",
         "category": "data-science",
         "pay": 1800000,
-        "jobs": 400000,
+        "jobs": 20000,
         "outlook": 25,
         "outlook_desc": "Much faster than average",
         "education": "Ph.D or Master's degree",
-        "exposure": 7,
+        "exposure": 5,
         "exposure_rationale": "While pushing the boundaries of scientific knowledge requires profound human creativity, the literature review, code implementation, and experiment tracking phases are heavily assisted by AI."
     },
 
@@ -147,7 +147,7 @@ occupations = [
         "outlook": 20,
         "outlook_desc": "Much faster than average",
         "education": "Bachelor's degree",
-        "exposure": 8,
+        "exposure": 7,
         "exposure_rationale": "Infrastructure as Code (IaC) and CI/CD pipelines are inherently digital. AI can generate configuration files (like Terraform/Kubernetes) and automatically resolve deployment errors."
     },
     {
@@ -159,7 +159,7 @@ occupations = [
         "outlook": 15,
         "outlook_desc": "Much faster than average",
         "education": "Bachelor's degree",
-        "exposure": 7,
+        "exposure": 4,
         "exposure_rationale": "Designing resilient cloud architectures requires high-level strategic thinking, but AI is quickly becoming capable of analyzing system requirements and proposing optimized cloud topologies."
     },
     {
@@ -183,7 +183,7 @@ occupations = [
         "outlook": 6,
         "outlook_desc": "Faster than average",
         "education": "Bachelor's degree",
-        "exposure": 7,
+        "exposure": 4,
         "exposure_rationale": "Network design and configuration is largely digital and automatable via Software Defined Networking (SDN). However, physical hardware installation and troubleshooting provide some buffer."
     },
     {
@@ -195,7 +195,7 @@ occupations = [
         "outlook": 4,
         "outlook_desc": "As fast as average",
         "education": "Bachelor's degree",
-        "exposure": 9,
+        "exposure": 8,
         "exposure_rationale": "AI can already automate routine DBA tasks like performance tuning, index optimization, and security monitoring, leading to massive productivity gains and reducing the need for manual oversight."
     },
 
@@ -209,7 +209,7 @@ occupations = [
         "outlook": 10,
         "outlook_desc": "Faster than average",
         "education": "Bachelor's or Master's degree",
-        "exposure": 6,
+        "exposure": 2,
         "exposure_rationale": "While AI can draft PRDs, analyze user data, and summarize meetings, the core role demands intense cross-functional collaboration, stakeholder alignment, and complex human empathy that AI cannot replace."
     },
     {
@@ -221,7 +221,7 @@ occupations = [
         "outlook": 8,
         "outlook_desc": "Faster than average",
         "education": "Bachelor's degree",
-        "exposure": 8,
+        "exposure": 5,
         "exposure_rationale": "Generative AI is rapidly advancing in visual design, capable of generating entire user interfaces, icons, and layout options in seconds, heavily altering the digital design workflow."
     },
     {
@@ -233,7 +233,7 @@ occupations = [
         "outlook": 9,
         "outlook_desc": "Much faster than average",
         "education": "Bachelor's degree",
-        "exposure": 8,
+        "exposure": 5,
         "exposure_rationale": "Analyzing technical requirements and modeling systems can be performed entirely on a computer. AI is highly capable of generating system diagrams and technical documentation."
     },
     {
@@ -245,7 +245,7 @@ occupations = [
         "outlook": 8,
         "outlook_desc": "Faster than average",
         "education": "Bachelor's degree",
-        "exposure": 6,
+        "exposure": 3,
         "exposure_rationale": "Project management involves risk assessment, resource allocation, and timeline tracking—tasks AI can optimize. The human element of motivating teams and handling interpersonal conflicts provides a strong buffer."
     },
     {
@@ -257,7 +257,7 @@ occupations = [
         "outlook": 12,
         "outlook_desc": "Much faster than average",
         "education": "Bachelor's degree",
-        "exposure": 6,
+        "exposure": 1,
         "exposure_rationale": "While AI can generate sales pitches, analyze client data, and provide technical answers, B2B enterprise sales remain heavily dependent on relationship-building and human trust."
     },
     
@@ -271,7 +271,7 @@ occupations = [
         "outlook": -2,
         "outlook_desc": "Decline",
         "education": "Postsecondary nondegree award",
-        "exposure": 9,
+        "exposure": 3,
         "exposure_rationale": "Diagnosing software issues and guiding users through digital workflows are highly susceptible to AI chatbots and automated troubleshooting. Physical hardware setup provides a small residual need for human staff."
     }
 ]
