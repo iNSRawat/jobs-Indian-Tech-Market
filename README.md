@@ -2,6 +2,8 @@
 
 Analyzing how susceptible the Indian IT, Data Science, and Tech sectors are to AI and automation.
 
+**Live demo: [insrawat.github.io/jobs-Indian-Tech-Market](https://insrawat.github.io/jobs-Indian-Tech-Market/)**
+
 **Based on the [Karpathy Jobs](https://github.com/karpathy/jobs) repository template, tailored exclusively for the Indian technology workforce.**
 
 ![AI Exposure Treemap](site/jobs.png)
