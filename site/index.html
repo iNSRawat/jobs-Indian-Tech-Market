@@ -682,8 +682,12 @@ function layoutColumns() {
     const colJobs = colJobTotals[i];
     const colW = (colJobs / totalJobs) * availW;
 
-    // Sort by outlook descending (best outlook at top)
-    items.sort((a, b) => (b.outlook || 0) - (a.outlook || 0));
+    // Sort by Data Science category first, then by outlook descending (best outlook at top)
+    items.sort((a, b) => {
+      if (a.category === "data-science" && b.category !== "data-science") return -1;
+      if (b.category === "data-science" && a.category !== "data-science") return 1;
+      return (b.outlook || 0) - (a.outlook || 0);
+    });
 
     let cy = pad.top;
     for (const d of items) {
