@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Exposure of the US Job Market</title>
+<title>AI Exposure of the Indian Tech Job Market</title>
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -255,8 +255,8 @@ canvas#canvas {
 
 <div id="sidebar">
   <div>
-    <h1>AI Exposure of the US Job Market</h1>
-    <div class="subtitle">342 occupations &middot; color = AI exposure<br>Data from <a href="https://www.bls.gov/ooh/">BLS</a>, scored by Gemini Flash<br><a href="https://github.com/karpathy/jobs">GitHub</a></div>
+    <h1>AI Exposure of the Indian Tech Job Market</h1>
+    <div class="subtitle">22 tech occupations &middot; color = AI exposure<br>Workforce sizes anchored to <a href="https://nasscom.in/">NASSCOM 2024 reports</a> (~5.7M IT workforce, ~600K Data/AI professionals). Salaries from Indeed/Glassdoor.<br>Scored by Gemini Flash model reasoning.<br><a href="https://github.com/karpathy/jobs">Original GitHub</a></div>
   </div>
 
   <div class="view-toggle">
@@ -585,7 +585,7 @@ function formatNumber(n) {
 
 function formatPay(n) {
   if (n == null) return "\u2014";
-  return "$" + n.toLocaleString();
+  return "₹" + n.toLocaleString('en-IN');
 }
 
 function showTooltip(d, mx, my) {
