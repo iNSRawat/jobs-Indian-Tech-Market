@@ -490,7 +490,11 @@ function layout() {
     cat,
     items: byCategory[cat].sort((a, b) => (b.jobs || 0) - (a.jobs || 0)),
     value: byCategory[cat].reduce((s, d) => s + (d.jobs || 1), 0),
-  })).sort((a, b) => b.value - a.value);
+  })).sort((a, b) => {
+    if (a.cat === "data-science") return -1;
+    if (b.cat === "data-science") return 1;
+    return b.value - a.value;
+  });
 
   const catRects = squarify(categories, tx, ty, tw, th);
 
