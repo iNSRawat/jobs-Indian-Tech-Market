@@ -867,11 +867,11 @@ function computeStats() {
 
   // Exposure by pay band
   const payBands = [
-    { label: "<$35K", min: 0, max: 35000 },
-    { label: "$35–50K", min: 35000, max: 50000 },
-    { label: "$50–75K", min: 50000, max: 75000 },
-    { label: "$75–100K", min: 75000, max: 100000 },
-    { label: "$100K+", min: 100000, max: Infinity },
+    { label: "<₹6L", min: 0, max: 600000 },
+    { label: "₹6L–9L", min: 600000, max: 900000 },
+    { label: "₹9L–12L", min: 900000, max: 1200000 },
+    { label: "₹12L–15L", min: 1200000, max: 1500000 },
+    { label: "₹15L+", min: 1500000, max: Infinity },
   ];
   const payChartEl = document.getElementById("payChart");
   payChartEl.innerHTML = payBands.map(band => {
@@ -921,7 +921,7 @@ function computeStats() {
   // Wages
   const trillions = wagesExposed / 1e12;
   document.getElementById("statWages").textContent =
-    "$" + trillions.toFixed(1) + "T";
+    "₹" + trillions.toFixed(1) + "T";
 }
 
 // ── Events ─────────────────────────────────────────────────────────────
